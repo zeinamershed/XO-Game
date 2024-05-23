@@ -78,12 +78,12 @@ function game(id) {
     if(turn === 'x' && element.innerHTML == '') {
         element.innerHTML = 'x';
         turn = 'o';
-        title.innerHTML = 'O'; 
+        title.innerHTML = 'Player O'; 
     }
     else if(turn === 'o' && element.innerHTML == '') {
         element.innerHTML = 'O';
         turn = 'x';
-        title.innerHTML = 'X';
+        title.innerHTML = 'Player X';
     }
     
     winner();
